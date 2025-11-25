@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Restaurant Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        /* simple box */
+        .box {
+            border: 1px solid black;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        input, select {
+            width: 95%;
+            padding: 5px;
+        }
+
+        button {
+            padding: 6px 10px;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="menu.webp" alt="My Photo" width="400" height="450">
+
+<h1>My Restaurant</h1>
+<p style="text-align:center;">Welcome to our simple restaurant website!</p>
+
+<!-- MENU SECTION -->
+<div class="box">
+    <h2>Menu</h2>
+
+    <table>
+        <tr>
+            <th>Dish</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>Margherita Pizza</td>
+            <td>Classic cheese pizza</td>
+            <td>Rs. 250</td>
+        </tr>
+
+        <tr>
+            <td>Pasta Alfredo</td>
+            <td>Creamy white sauce pasta</td>
+            <td>Rs. 300</td>
+        </tr>
+
+        <tr>
+            <td>Cold Coffee</td>
+            <td>Chilled refreshing coffee</td>
+            <td>Rs. 120</td>
+        </tr>
+    </table>
+</div>
+
+<!-- RESERVATION FORM -->
+<div class="box">
+    <h2>Online Reservation</h2>
+
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Date:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Time:</td>
+                <td><input type="time"></td>
+            </tr>
+            <tr>
+                <td>Guests:</td>
+                <td>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4+</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <button type="submit">Book Table</button>
+    </form>
+</div>
+
+<!-- REVIEWS -->
+<div class="box">
+    <h2>Customer Reviews</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Review</th>
+        </tr>
+
+        <tr>
+            <td>Aman</td>
+            <td>Great food and fast service!</td>
+        </tr>
+
+        <tr>
+            <td>Sana</td>
+            <td>Very good pasta, must try!</td>
+        </tr>
+
+        <tr>
+            <td>Riya</td>
+            <td>Comfortable place and friendly staff.</td>
+        </tr>
+    </table>
+</div>
+
+<p style="text-align:center;">Thank you for visiting our restaurant!</p>
+
+</body>
+</html>
